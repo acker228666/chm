@@ -33,7 +33,7 @@ def install():
 		os.system(" git clone https://github.com/acker228666/chm.git")
                 #os.system("mkdir nchm")
                 #os.system("mv chm newchm")
-                os.system("mv chm ~") 
+               # os.system("mv chm ~") 
 
 	if(pro == 0):
 		os.system("^C")
