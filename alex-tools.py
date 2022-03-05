@@ -28,8 +28,8 @@ def install():
 	print("99-обновить программу")
 	pro = int(input("введите номер программы"))
 	if (pro ==99):
-		os.system("mkdir new_programm")
-		os.system("cd new_programm")
+		#os.system("mkdir new_programm")
+		#os.system("cd new_programm")
 		os.system(" git clone https://github.com/acker228666/chm.git")
 	if(pro == 0):
 		os.system("^C")
